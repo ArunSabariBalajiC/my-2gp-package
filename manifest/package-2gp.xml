@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Apex Classes -->
+    <types>
+        <members>AccountSelectedRecords</members>
+        <members>AccountSelectedRecordsTest</members>
+        <members>ApiCallLightningComponent</members>
+        <members>ApiCallLightningComponent_Test</members>
+        <members>ConnectedAppPlugin</members>
+        <members>ConnectedAppPlugin_Test</members>
+        <members>ContactSelectedRecords</members>
+        <members>ContactSelectedRecordsTest</members>
+        <members>CurrentUserInfo</members>
+        <members>ExampleCalloutMock</members>
+        <members>Integration</members>
+        <members>IntegrationTest</members>
+        <members>LeadSelectedRecords</members>
+        <members>LeadSelectedRecordsTest</members>
+        <members>OAppS_Omni_Channel</members>
+        <members>OAppS_Omni_Channel_Test</members>
+        <members>OAppS_Omni_Launcher</members>
+        <members>OAppS_Send_SMS</members>
+        <members>OAppS_Send_SMS_Test</members>
+        <members>OrgDetails</members>
+        <members>PostInstallClass</members>
+        <members>PostInstallClass_Test</members>
+        <name>ApexClass</name>
+    </types>
+    
+    <!-- Aura Components -->
+    <types>
+        <members>MakiAPICall</members>
+        <members>MakiAPICallApp</members>
+        <members>OAppS_Iframe_Page</members>
+        <members>OAppS_Omni_Channel</members>
+        <members>OAppS_Omni_Channel_App</members>
+        <members>OAppS_Send_SMS</members>
+        <members>OAppS_Send_SMS_App</members>
+        <members>OappsComponenet</members>
+        <members>smsModalContent</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    
+    <!-- Custom Objects -->
+    <types>
+        <members>OAppS__OappsCustomData__mdt</members>
+        <members>OAppS__SMS_History_Omni__c</members>
+        <name>CustomObject</name>
+    </types>
+    
+    <!-- Custom Tabs -->
+    <types>
+        <members>OAppS__SMS_History_Omni__c</members>
+        <name>CustomTab</name>
+    </types>
+    
+    <!-- Permission Sets -->
+    <types>
+        <members>Experience_Profile_Manager</members>
+        <name>PermissionSet</name>
+    </types>
+    
+    <!-- Static Resources -->
+    <types>
+        <members>calloutMockTestFile</members>
+        <name>StaticResource</name>
+    </types>
+    
+    <!-- Flows -->
+    <types>
+        <members>ContactCreateorUpdate</members>
+        <members>Dinesh_flow</members>
+        <members>HelloSendDemo1</members>
+        <members>hsAutomationTesting</members>
+        <members>hs_sf_automation</members>
+        <members>localNgrokOne_ngrokCalloutOne_Test</members>
+        <name>Flow</name>
+    </types>
+    
+    <!-- Custom Application -->
+    <types>
+        <members>OAppS__OAppS_OMessage</members>
+        <name>CustomApplication</name>
+    </types>
+    
+    <!-- FlexiPages -->
+    <types>
+        <members>Account_Record_Page</members>
+        <members>Account_Record_Page1</members>
+        <members>Contact_Record_Page</members>
+        <members>Contact_Record_Page1</members>
+        <members>Lead_Record_Page</members>
+        <members>OAppS_Omni_Messaging_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    
+    <version>62.0</version>
+</Package>

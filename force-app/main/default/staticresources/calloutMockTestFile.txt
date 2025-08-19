@@ -1,0 +1,9 @@
+{
+"osyncId":"1352c6aa-d73b-4829-a709",
+"integId":"0241b5zz-c62a-3718-a618",
+"leftServiceId":"1352c6aa-d73b-4829-a709-7770bf71966a",
+"rightServiceId":"",
+"code":"",
+"osyncUrl":"",
+"hash" :"0241b5zz-c62a-3718-a618-6661ae60855z"
+}
