@@ -1,21 +1,23 @@
-<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
-    <aura:handler name="init" action="{!c.getContactList}" value="{!this}"/>
-    <aura:attribute name="name" type="Contact"/>
-    <aura:attribute name="phone" type="Contact"/>
-    <aura:attribute name="id" type="Contact"/>
-    <lightning:card footer="Send SMS" title="OAppS Omni">
-        <aura:set attribute="actions">
-            <lightning:button label="SEND SMS" onclick="{!c.google}"/>
-        </aura:set>
-        <p class="slds-p-horizontal_small">CONTACT INFO</p>
-        <p class="slds-p-horizontal_small">
-            <div>
-                <p>NAME</p>
-                <ui:outputText aura:id="outName" value="{!v.name}" class="text"/>
-                <p>PHONE</p>
-                <ui:outputText aura:id="outPhone" value="{!v.phone}" class="text"/>
-            </div>
-        </p>
-    </lightning:card>
-	
+<aura:component
+  implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"
+  access="global"
+>
+  <aura:handler name="init" action="{!c.getContactList}" value="{!this}" />
+  <aura:attribute name="name" type="Contact" />
+  <aura:attribute name="phone" type="Contact" />
+  <aura:attribute name="id" type="Contact" />
+  <lightning:card footer="Send SMS" title="OAppS Omni">
+    <aura:set attribute="actions">
+      <lightning:button label="SEND SMS" onclick="{!c.google}" />
+    </aura:set>
+    <p class="slds-p-horizontal_small">CONTACT INFO</p>
+    <p class="slds-p-horizontal_small">
+      <div>
+        <p>NAME</p>
+        <ui:outputText aura:id="outName" value="{!v.name}" class="text" />
+        <p>PHONE</p>
+        <ui:outputText aura:id="outPhone" value="{!v.phone}" class="text" />
+      </div>
+    </p>
+  </lightning:card>
 </aura:component>

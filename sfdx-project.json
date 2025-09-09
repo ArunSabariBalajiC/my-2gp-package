@@ -2,20 +2,20 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "package": "OAppS Omni Channel Package",
+      "package": "HelloSend Package",
       "versionName": "Version 1.0",
-      "versionDescription": "Initial 2GP version migrated from 1GP - Omni Channel SMS Integration",
+      "versionDescription": "HelloSend SMS Integration Package - Initial Release",
       "versionNumber": "1.0.0.NEXT",
       "default": true
     }
   ],
-  "name": "oapps-omni-channel-2gp",
+  "name": "hellosend-2gp",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "62.0",
   "packageAliases": {
-    "OAppS-Test-Unlocked": "0HodN000000068fSAA",
-    "OAppS Omni Channel Package": "0HodN00000006dJSAQ",
-    "OAppS Omni Channel Package@1.0.0-1": "04tdN000000E5vtQAC",
-    "OAppS Omni Channel Package@1.0.0-2": "04tdN000000EFLlQAO"
+    "HelloSend Package": "0HodN00000006wfSAA",
+    "HelloSend Package@1.0.0-1": "04tdN000000F7afQAC",
+    "HelloSend Package@1.0.0-2": "04tdN000000F7h7QAC",
+    "HelloSend Package@1.0.0-3": "04tdN000000F7pBQAS"
   }
 }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>sabari@oapps.xyz</contactEmail>
+    <label>OAppS Omni Channel</label>
+    <logoUrl>https://oappstechnology-dev-ed.develop.file.force.com/servlet/servlet.ImageServer?id=0152w000001H0L6&amp;oid=00D2w00000Qujn3</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://fun-scarcely-grackle.ngrok-free.app/api/v2/app/redirect
+https://server5.rekzyl.com/api/v2/app/redirect
+http://localhost:7000/api/v1/redirect</callbackUrl>
+        <consumerKey>3MVG9n_HvETGhr3CogbDQGHDGFobOBZPY5Gu7qQbYPYWxSpTn8dMHEnTvMw3FU6mrpfmUPPcD2yyz74UNNFTE</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

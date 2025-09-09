@@ -1,23 +1,34 @@
-<apex:page standardController="Contact" recordSetVar="contacts" extensions="ContactSelectedRecords">
-    <apex:form>
-        <apex:pageBlock title="Selected Records">
-            <apex:pageBlockSection>
-                <apex:pageblocksectionitem>
-                    <apex:pageBlockTable value="{!selectedRecords}" var="rec">
-                        <apex:column value="{!rec.Name}" />
-                        <apex:column value="{!rec.Phone}" />
-                        <apex:column value="{!rec.Id}" />
-                    </apex:pageBlockTable>
-                </apex:pageblocksectionitem>
-                <apex:pageblocksectionitem>
-                    <apex:iframe src="{!Url}" width="100%" height="700" scrolling="true" />
-                </apex:pageblocksectionitem>
-            </apex:pageBlockSection>
-        </apex:pageBlock>
-    </apex:form>
-    <apex:form>
-        <apex:pageBlock title="URL">
-            <apex:outputText value="{!Url}" />
-        </apex:pageBlock>
-    </apex:form>
+<apex:page
+  standardController="Contact"
+  recordSetVar="contact"
+  extensions="ContactSelectedRecords"
+>
+  <apex:form>
+    <apex:pageBlock title="Selected Records">
+      <apex:pageBlockSection>
+        <apex:pageblocksectionitem>
+          <apex:pageBlockTable value="{!selectedRecords}" var="rec">
+            <apex:column value="{!rec.Name}" />
+            <apex:column value="{!rec.Phone}" />
+            <apex:column value="{!rec.Id}" />
+          </apex:pageBlockTable>
+        </apex:pageblocksectionitem>
+        <apex:pageblocksectionitem>
+          <apex:iframe
+            src="{!Url}"
+            width="100%"
+            height="700"
+            scrolling="true"
+          />
+        </apex:pageblocksectionitem>
+      </apex:pageBlockSection>
+    </apex:pageBlock>
+  </apex:form>
+  <apex:form>
+    <apex:pageBlock title="URL">
+      <apex:pageBlockTable value="{!Url}" var="url">
+        <apex:column value="{!url}" />
+      </apex:pageBlockTable>
+    </apex:pageBlock>
+  </apex:form>
 </apex:page>

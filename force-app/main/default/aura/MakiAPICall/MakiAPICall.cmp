@@ -1,15 +1,18 @@
-<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" 
-                controller="ApiCallLightningComponent" 
-                access="global" >
-    
-    <aura:handler name="init" action="{!c.doHandleClick}" value="{!this}"/>
-    
-    <aura:attribute name="redirectUrl" type="String"/>
-    <iframe src="{!v.redirectUrl}"
-            width="100%"
-            height="1000"
-            style="{!v.style}"
-            frameBorder="{!v.frameBorder}"
-            sandbox="{!v.sandbox}"
-            scrolling="{!v.scrolling}"/>
+<aura:component
+  implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"
+  controller="ApiCallLightningComponent"
+  access="global"
+>
+  <aura:handler name="init" action="{!c.doHandleClick}" value="{!this}" />
+
+  <aura:attribute name="redirectUrl" type="String" />
+  <iframe
+    src="{!v.redirectUrl}"
+    width="100%"
+    height="1000"
+    style="{!v.style}"
+    frameborder="{!v.frameBorder}"
+    sandbox="{!v.sandbox}"
+    scrolling="{!v.scrolling}"
+  />
 </aura:component>

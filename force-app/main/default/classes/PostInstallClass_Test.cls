@@ -1,14 +1,14 @@
 @IsTest
 public class PostInstallClass_Test {
-    @isTest
-    static void testInstallScript() {
-        PostInstallClass postinstall = new PostInstallClass();
-        Test.testInstall(postinstall, null);
-        Test.testInstall(postinstall, new Version(1,0), true);
-        List<Account> a = [Select id, name from Account where name ='Newco'];
-        System.assertEquals(a.size(), 0, 'Account not found');
-    }
-    /*
+  @isTest
+  static void testInstallScript() {
+    PostInstallClass postinstall = new PostInstallClass();
+    Test.testInstall(postinstall, null);
+    Test.testInstall(postinstall, new Version(1, 0), true);
+    List<Account> a = [SELECT id, name FROM Account WHERE name = 'Newco'];
+    System.assertEquals(a.size(), 0, 'Account not found');
+  }
+  /*
     @isTest static void testCalloutWithStaticResources() {
         StaticResourceCalloutMock mock = new StaticResourceCalloutMock();
         mock.setStaticResource('calloutMockTestFile');

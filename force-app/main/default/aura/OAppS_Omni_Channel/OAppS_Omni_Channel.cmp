@@ -1,13 +1,15 @@
-<aura:component controller="OAppS_Omni_Channel" 
-                implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" 
-                access="global"  >
-    <aura:handler name = "init" action ="{!c.getUrlDetails}" value = "{!this}"/>
-    <aura:attribute name ="osyncId" type ="Object"/>
-    <aura:attribute name ="integId" type ="Object"/>
-    <aura:attribute name ="hash" type ="Object"/>
-    <lightning:card title = "OAppS Redirect">
-        <aura:set attribute="actions">
-            <lightning:button label="LAUNCH THE APPLICATION" onclick="{!c.trigger}"/>
-        </aura:set>
-    </lightning:card>
+<aura:component
+  controller="OAppS_Omni_Channel"
+  implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId"
+  access="global"
+>
+  <aura:handler name="init" action="{!c.getUrlDetails}" value="{!this}" />
+  <aura:attribute name="osyncId" type="Object" />
+  <aura:attribute name="integId" type="Object" />
+  <aura:attribute name="hash" type="Object" />
+  <lightning:card title="OAppS Redirect">
+    <aura:set attribute="actions">
+      <lightning:button label="LAUNCH THE APPLICATION" onclick="{!c.trigger}" />
+    </aura:set>
+  </lightning:card>
 </aura:component>

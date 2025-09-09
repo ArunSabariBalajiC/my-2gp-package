@@ -1,8 +1,6 @@
 ({
-	helperMethod : function() {
-		
-	}
-    /*fetchContacts : function(component, event, helper) {
+  helperMethod: function () {}
+  /*fetchContacts : function(component, event, helper) {
 		var action = component.get("");
         var accountId = component.get("");
         action.setParams({
@@ -54,4 +52,4 @@
         });
         $A.enqueueAction(meta);
 	}*/
-})
+});

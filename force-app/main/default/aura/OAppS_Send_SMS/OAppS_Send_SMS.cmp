@@ -1,22 +1,22 @@
 <aura:component
-                controller="OAppS_Send_SMS"
-                implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:hasSObjectName"
-                access="global"
-                >
-    <aura:handler name="init" action="{!c.getContact}" value="{!this}" />
-    <!--aura:handler name="init" action="{!c.trigger}" value="{!this}"/-->
-    
-    <aura:attribute name="iframeUrl" type="String" />
-    <aura:attribute name="sObjectName" type="String" />
-    <aura:attribute name="name" type="Contact" />
-    <aura:attribute name="phone" type="Contact" />
-    <aura:attribute name="id" type="Contact" />
-    <aura:attribute name="osyncId" type="Object" />
-    <aura:attribute name="hash" type="Object" />
-    <aura:attribute name="companyId" type="String" />
-    <aura:attribute name="userId" type="String" />
-    
-    <lightning:card title="HelloSend DM">
-            <iframe src="{!v.iframeUrl}" width="100%" height="700" />
-    </lightning:card>
+  controller="OAppS_Send_SMS"
+  implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:hasSObjectName"
+  access="global"
+>
+  <aura:handler name="init" action="{!c.getContact}" value="{!this}" />
+  <!--aura:handler name="init" action="{!c.trigger}" value="{!this}"/-->
+
+  <aura:attribute name="iframeUrl" type="String" />
+  <aura:attribute name="sObjectName" type="String" />
+  <aura:attribute name="name" type="Contact" />
+  <aura:attribute name="phone" type="Contact" />
+  <aura:attribute name="id" type="Contact" />
+  <aura:attribute name="osyncId" type="Object" />
+  <aura:attribute name="hash" type="Object" />
+  <aura:attribute name="companyId" type="String" />
+  <aura:attribute name="userId" type="String" />
+
+  <lightning:card title="HelloSend DM">
+    <iframe src="{!v.iframeUrl}" width="100%" height="700" />
+  </lightning:card>
 </aura:component>
