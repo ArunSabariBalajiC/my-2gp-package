@@ -5,17 +5,27 @@
       "package": "HelloSend Package",
       "versionName": "Version 1.0",
       "versionDescription": "HelloSend SMS Integration Package - Initial Release",
-      "versionNumber": "1.0.0.NEXT",
+      "versionNumber": "1.0.1.NEXT",
       "default": true
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app",
+      "default": false,
+      "package": "HelloSend Package v2",
+      "versionDescription": "HelloSend SMS Integration Package with Connected App"
     }
   ],
   "name": "hellosend-2gp",
+  "namespace": "HelloSend",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "62.0",
   "packageAliases": {
     "HelloSend Package": "0HodN00000006wfSAA",
     "HelloSend Package@1.0.0-1": "04tdN000000F7afQAC",
     "HelloSend Package@1.0.0-2": "04tdN000000F7h7QAC",
-    "HelloSend Package@1.0.0-3": "04tdN000000F7pBQAS"
+    "HelloSend Package@1.0.0-3": "04tdN000000F7pBQAS",
+    "HelloSend Package v2": "0HodN000000079ZSAQ"
   }
 }
